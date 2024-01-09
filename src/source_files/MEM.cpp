@@ -138,6 +138,7 @@ void MEM::dbg_log_stack() {
 
 void MEM::dbg_log_regs_mem() {
     std::cout << "dbg_log_regs_mem\n";
+    std::cout << "prgc r1   r2   r3   r4   r5   r6   r7   r8   sp   fp\n";
     int count = 0;
     for (u8 i : regs_mem) {
         std::cout << std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(i);

@@ -7,7 +7,7 @@ Here is a list of all instructions implemented in assembly language (their opcod
  - `add` – 0x20 or 0x21
  - `sub` – 0x22 or 0x23
  - `mul` – 0x24 or 0x25
- - `div` – 0x26 or 0x217
+ - `div` – 0x26 or 0x27
  - `inc` – 0x28
  - `dec` – 0x29
  - `ifz` – 0x30 *(if zero)*
